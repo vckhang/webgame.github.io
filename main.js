@@ -1311,7 +1311,7 @@ var TrangloaiComponent = /** @class */ (function () {
         this.servide = servide;
         this.pageNum = 1;
         this.offset = 20;
-        this.http_api = "http://localhost:8080/game2t_new/api.html?";
+        this.http_api = "http://game2t.com/api/index.php?";
         this.slug_title = "";
         this.idparent2 = 2;
         this.title = "";
@@ -1572,7 +1572,7 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
 var service = /** @class */ (function () {
     function service(http) {
         this.http = http;
-        this.http_api = "http://localhost:8080/game2t_new/api.html?";
+        this.http_api = "http://game2t.com/api/index.php?";
     }
     service.prototype.getbaiviet = function (data) {
         var _this = this;
